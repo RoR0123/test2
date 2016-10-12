@@ -1,12 +1,16 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_right" id="23" x="117" y="73">
     <next>
-      <block type="movement_forward" id="33">
+      <block type="movement_stop" id="43">
         <next>
-          <block type="movement_forward" id="13">
+          <block type="movement_forward" id="33">
             <next>
-              <block type="comment_comment" id="2">
-                <field name="TEXT">100</field>
+              <block type="movement_forward" id="13">
+                <next>
+                  <block type="comment_comment" id="2">
+                    <field name="TEXT">100</field>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
