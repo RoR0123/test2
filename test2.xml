@@ -3,6 +3,13 @@
     <next>
       <block type="comment_comment" id="2">
         <field name="TEXT">100</field>
+        <next>
+          <block type="movement_right" id="23">
+            <next>
+              <block type="movement_forward" id="33"></block>
+            </next>
+          </block>
+        </next>
       </block>
     </next>
   </block>
